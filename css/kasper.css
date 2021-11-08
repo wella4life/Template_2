@@ -494,3 +494,15 @@ header nav .form i {
   text-transform: uppercase;
 }
 /* End Video */
+/* Start About */
+.about {
+  background-color: white;
+  padding-top: 100px;
+  overflow: hidden;
+}
+.about img {
+  position: relative;
+  max-width: 100%;
+  margin-top: -80px;
+}
+/* End About */
