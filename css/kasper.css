@@ -51,8 +51,8 @@ ul {
   }
 }
 /* End Global Rules */
+/* Start Header */
 header {
-  /* Start Header */
   position: absolute;
   left: 0;
   width: 100%;
@@ -233,7 +233,6 @@ header nav .form i {
 /* Start Section */
 .section {
   padding: 100px;
-  background-color: white;
 }
 .main-heading {
   text-align: center;
@@ -279,7 +278,6 @@ header nav .form i {
 .services {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: white;
 }
 @media (min-width: 768px) {
   .services .services-container {
@@ -380,7 +378,6 @@ header nav .form i {
 .portfolio {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: white;
 }
 .portfolio .shuffle {
   display: flex;
@@ -508,7 +505,6 @@ header nav .form i {
 /* End About */
 /* Start Statistics */
 .stats {
-  background-color: white;
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
@@ -573,7 +569,6 @@ header nav .form i {
 /* End Statistics */
 /* Start Skills */
 .our-skills {
-  background-color: white;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -723,7 +718,6 @@ header nav .form i {
 .pricing {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: white;
 }
 .pricing .plans {
   display: grid;
@@ -883,3 +877,81 @@ header nav .form i {
   }
 }
 /* End Subscribe */
+/* Start Contact */
+.contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.contact .content {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .contact .content {
+    flex-direction: column;
+  }
+}
+.contact .content form {
+  flex-basis: 70%;
+}
+.contact .content form .main-input {
+  padding: 20px;
+  display: block;
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.contact .content form .main-input:focus {
+  outline: none;
+}
+.contact .content form textarea.main-input {
+  height: 200px;
+}
+.contact .content form input[type="submit"] {
+  background-color: var(--main-color);
+  color: white;
+  padding: 20px;
+  border: none;
+  display: flex;
+  margin-left: auto;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.contact .content .info {
+  flex-basis: 25%;
+}
+@media (max-width: 767px) {
+  .contact .content .info {
+    order: -1;
+    text-align: center;
+  }
+}
+.contact .content .info h4 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.contact .content .info .phone {
+  display: block;
+  color: #777;
+  margin-bottom: 10px;
+}
+.contact .content .info h4:nth-of-type(2) {
+  margin-top: 90px;
+}
+@media (max-width: 767px) {
+  .contact .content .info h4:nth-of-type(2) {
+    margin-top: 30px;
+  }
+}
+.contact .content .info address {
+  color: #777;
+  line-height: 2;
+}
+@media (max-width: 767px) {
+  .contact .content .info address {
+    margin-bottom: 40px;
+  }
+}
+/* End Contact */
