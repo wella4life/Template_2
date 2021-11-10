@@ -32,22 +32,22 @@ ul {
 }
 @media (max-width: 767px) {
   .container {
-    width: 540px;
+    width: 100%;
   }
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 100%;
   }
 }
 /* End Global Rules */
@@ -60,7 +60,7 @@ header {
 }
 header .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   position: relative;
   min-height: 97px;
@@ -95,6 +95,7 @@ header nav .toggle-menu {
 }
 header nav ul {
   display: flex;
+  margin-right: 30px;
 }
 @media (max-width: 767px) {
   header nav ul {
@@ -132,7 +133,7 @@ header nav .form {
   width: 40px;
   height: 30px;
   position: relative;
-  margin-left: 30px;
+  margin-right: 30px;
   border-left: 1px solid white;
 }
 header nav .form i {
@@ -637,6 +638,7 @@ header nav .form i {
 }
 .our-skills .skills .prog-holder {
   margin-bottom: 40px;
+  width: 90%;
 }
 .our-skills .skills .prog-holder h4 {
   margin-bottom: 15px;
