@@ -1,2 +1,31 @@
-# Template_2
- HTML and CSS frontend template
+- Overview:
+  - [Kasper Template Look-Alike](#the-challenge)
+  - [https://wella4life.github.io/Template_2/](#links)
+  - ![](images/Finished-Desktop-1.jpg)
+  - ![](images/Finished-Desktop-2.jpg)
+  - ![](images/Finished-Desktop-3.jpg)
+  - ![](images/Finished-Desktop-4.jpg)
+  - ![](images/Finished-Desktop-5.jpg)
+  - ![](images/Finished-Desktop-6.jpg)
+  - ![](images/Finished-Desktop-7.jpg)
+  - ![](images/Finished-Desktop-8.jpg)
+  - ![](images/Finished-Desktop-9.jpg)
+  - ![](images/Finished-Desktop-10.jpg)
+  - ![](images/Finished-Desktop-11.jpg)
+  - ![](images/Finished-Desktop-12.jpg)
+
+ - Users should be able to:
+   - View the optimal layout for the site depending on their device's screen size
+   - Hover Stats on many components
+   - Active Stats on main components
+   - Animations on many components
+
+ - What I Learned:
+   - Second ever project I was practicing on
+   - Learned a lot of things that helped "too much to mention"
+ 
+ - What I Couldn't Do:
+   - Had many access issues
+   - Hard time with Margins and spacing
+   - Hard time with flex and grid
+   - Mobile Version issues
