@@ -1,6 +1,6 @@
 - Overview:
-  - [Kasper Template Look-Alike](#the-challenge)
-  - [https://wella4life.github.io/Template_2/](#links)
+  - [Kasper Template Look-Alike]
+  - [https://wella4life.github.io/Template_2/]
   - ![](images/Finished-Desktop-1.jpg)
   - ![](images/Finished-Desktop-2.jpg)
   - ![](images/Finished-Desktop-3.jpg)
